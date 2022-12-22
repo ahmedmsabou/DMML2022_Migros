@@ -23,6 +23,8 @@ Thereafter, we used 4 models to classify the difficulty of French sentences. Aft
 
 Focusing mainly on the accuracy, one can see that the decision tree had the wost performance on this data set. As expected, the random forest outperformed the decision tree, while the kNN model was unable to beat the random forest. Out of the 4 base models, the logistic regression performed best, with a 46% accuracy on the validation set.
 
-The best model however, is the camamBERT model, with 57,4% accuracy on the validation set. One may use a confusion matrix to discover how the BERT model tends to predict the difficulty of a sentence incorrectly. Clearly, one sees that most incorrect predictions are right next to the diagonal of the matrix, implying that it is usually only 1 diffuclty level of the true value.
+The best model however, is the camemBERT model, with 57,4% accuracy on the validation set. One may use a confusion matrix to discover how the BERT model tends to predict the difficulty of a sentence incorrectly. Clearly, one sees that most incorrect predictions are right next to the diagonal of the matrix, implying that it is usually only 1 diffuclty level of the true value.
 
 ![image](https://user-images.githubusercontent.com/114418721/209134335-4bb43e2e-249a-4704-ae77-260067abe6e4.png)
+
+For detailed explanations of the camemBERT model we refer to the code. One notable thing is that the performance of the model was improved slighly by using the camemBERT large model from huggingface. This model is pre-trained on more sentences than the original model, thus improving our accuracy by a few % compared to the base camemBERT model.

@@ -2,7 +2,7 @@
 
 # Presentation:
 https://youtu.be/re6JNey5R4I
-Above the link to our presentation for the project.
+The link to our presentation for the project.
 
 # Organization
 
